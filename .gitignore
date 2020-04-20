@@ -239,4 +239,7 @@ credentials.py
 *.csv.crc
 _SUCCESS
 
+# Libs
+libs/
+
 # End of https://www.gitignore.io/api/cmake,python,pycharm,jupyternotebooks
