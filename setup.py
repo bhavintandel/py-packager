@@ -1,6 +1,7 @@
 from setuptools import setup, find_packages
 
 VERSION = "0.1.0"
+PACKAGE_NAME = "dependencies"
 
 with open('requirements.txt') as f:
     requirements = f.read().splitlines()
@@ -9,7 +10,7 @@ with open("README.md", "r+") as f:
     long_description = f.read()
 
 setup(
-    name="dependencies",
+    name=PACKAGE_NAME,
     version=VERSION,
     description="Project to package dependencies",
     long_description=long_description,

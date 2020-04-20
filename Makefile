@@ -1,6 +1,6 @@
 # Get the version of from setup.py
 VERSION=$(shell grep "VERSION = [0-9.]*" setup.py | cut -d\" -f2)
-PROJECT_NAME=$(shell grep "name=*" setup.py | cut -d\" -f2)
+PROJECT_NAME=$(shell grep "PACKAGE_NAME = *" setup.py | cut -d\" -f2)
 
 clean:
 	rm -f -r libs/
