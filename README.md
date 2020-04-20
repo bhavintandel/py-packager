@@ -34,19 +34,21 @@ PACKAGE_NAME = "dependencies"
 
 This will be used to generate your final files.
 
-## To generate python egg file
+## Generate the package
+
+### To build python egg file
 
 ```shell script
 make bdist_egg
 ```
 
-## To generate pyspark zip file
+### To build pyspark zip file
 
 ```shell script
 make build_zip
 ```
 
-## To build all
+### To build all
 
 ```shell script
 make build
